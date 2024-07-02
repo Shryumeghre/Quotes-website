@@ -1,0 +1,78 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color:rgb(150, 239, 236);
+    font-family: Arial, sans-serif;
+    border-radius: 30px;
+    box-shadow: 0 20px 50px rgba(0, 0, 0, 0.2);
+    /* width: 400px; */
+    padding: 0px;
+}
+
+.container {
+    background: rgb(243, 247, 246);
+    border-radius: 10px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    width: 600px;
+    height: 200px;
+    text-align: center;
+}
+
+.inner {
+    position: relative;
+}
+
+.box {
+    padding: 20px;
+    position: relative;
+}
+
+#quotes {
+    font-size: 24px;
+    font-style: bold;
+    margin-bottom: 20px;
+    color: #555;
+}
+
+#author {
+    font-size: 22px;
+    /* font-weight: ; */
+    color: #333;
+    margin-bottom: 20px;
+}
+
+button {
+    background-color: #3accc0;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button#tweetMe img {
+    width: 20px;
+    height: 20px;
+}
+
+button#newQ {
+    background-color: #3accc0;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button#newQ:hover,
+button#tweetMe:hover {
+    background-color: #3accc0;
+}
